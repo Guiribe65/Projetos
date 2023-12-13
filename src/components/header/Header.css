@@ -1,0 +1,29 @@
+.header {
+    border-bottom: 5px solid red;
+    display: flex;
+    position: static;
+    height: 82px;
+  }
+  
+  .subtxt {
+    color: rgb(40, 20, 20);
+    height: 30px;
+    width: 130px;
+    font-weight: 500;
+    position: absolute;
+    top: 50px;
+    left: 25px;
+  }
+  
+  .login {
+    color: rgb(40, 20, 20);
+    height: 30px;
+    width: 50px;
+    font-weight: 500;
+    position: absolute;
+    top: 35px;
+    right:5px;
+  }
+  
+  
+  
