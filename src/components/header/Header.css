@@ -1,12 +1,22 @@
 .header {
-    border-bottom: 5px solid red;
-    display: flex;
-    position: static;
+    border-bottom: 3px solid red;
+    background-color: whitesmoke;
+    position: fixed;
     height: 82px;
+    width: 1310px;
   }
+
+  .menu {
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+    margin-top: 10px;
+    position: absolute;
+    height: 40px;
+    width: 140px;
+}
   
   .subtxt {
-    color: rgb(40, 20, 20);
+    color: rgb(0, 0, 0);
     height: 30px;
     width: 130px;
     font-weight: 500;
@@ -16,14 +26,132 @@
   }
   
   .login {
-    color: rgb(40, 20, 20);
+    color: rgb(0, 0, 0);
     height: 30px;
-    width: 50px;
+    width: 30px;
     font-weight: 500;
     position: absolute;
-    top: 35px;
-    right:20px;
+    top: 30px;
+    right: 20px;
+  }
+
+  .WA {
+    color: rgb(0, 0, 0);
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 30px;
+    right: 65px;
+  }
+
+  .shop {
+    color: rgb(0, 0, 0);
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 30px;
+    right: 112px;
   }
   
+  .search {
+    color: rgb(0, 0, 0);
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 30px;
+    right: 160px;
+  }
+  /* -------------------------menu--------------------------- */
+  .mnu {
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    height: 34px;
+    width: auto;
+    top: 85px;
+  }
+
+  .promo {
+    color: rgb(255, 255, 255);
+    /* border-bottom: 1px solid rgb(255, 255, 255); */
+    text-align: center;
+    height: 20px;
+    width: 80px;
+    font-weight: 200;
+    position: absolute;
+    top: 5px;
+    left: 82px;
+  }
+
+  .massas {
+    color: rgb(255, 255, 255);
+    /* border-bottom: 1px solid rgb(255, 255, 255); */
+    text-align: center;
+    height: 20px;
+    width: 50px;
+    font-weight: 200;
+    position: absolute;
+    top: 5px;
+    left: 240px;
+  }
+
+  .marmitas {
+    color: rgb(255, 255, 255);
+    /* border-bottom: 1px solid rgb(255, 255, 255); */
+    text-align: center;
+    height: 20px;
+    width: 66px;
+    font-weight: 200;
+    position: absolute;
+    top: 5px;
+    left: 380px;
+  }
+
+  .msp {
+    color: rgb(255, 255, 255);
+    /* border-bottom: 1px solid rgb(255, 255, 255); */
+    text-align: center;
+    height: 20px;
+    width: 115px;
+    font-weight: 200;
+    position: absolute;
+    top: 5px;
+    left: 540px;
+  }
+  
+  .bebidas {
+    color: rgb(255, 255, 255);
+    /* border-bottom: 1px solid rgb(255, 255, 255); */
+    text-align: center;
+    height: 20px;
+    width: 55px;
+    font-weight: 200;
+    position: absolute;
+    top: 5px;
+    right: 500px;
+  }
+
+  .sobremesas {
+    color: rgb(255, 255, 255);
+    /* border-bottom: 1px solid rgb(255, 255, 255); */
+    text-align: center;
+    height: 20px;
+    width: 84px;
+    font-weight: 200;
+    position: absolute;
+    top: 5px;
+    right: 290px;
+  }
+
+  .contato {
+    color: rgb(255, 255, 255);
+    /* border-bottom: 1px solid rgb(255, 255, 255); */
+    text-align: center;
+    height: 20px;
+    width: 58px;
+    font-weight: 200;
+    position: absolute;
+    top: 5px;
+    right: 100px;
+  }
   
   

@@ -1,76 +1,29 @@
-.mnu {
-    background-color: rgb(0, 0, 0);
+html {
+    padding-bottom: 2000px;
+}
+
+.teste {
+    background-color: aqua;
+    border: 2px solid blue;
     position: relative;
-    height: 30px;
+    height: 40px;
+    top: 120px;
+}
+.teste2 {
+    /* border: 2px solid blue; */
+    background-color: rgb(86, 30, 30);
+    height: 40px;
     width: auto;
-  }
+    position: relative;
 
-  .promo {
-    color: rgb(255, 255, 255);
-    height: 20px;
-    width: 80px;
-    font-weight: 200;
-    position: absolute;
-    top: 5px;
-    left: 80px;
-  }
+}
 
-  .massas {
-    color: rgb(255, 255, 255);
-    height: 20px;
-    width: 50px;
-    font-weight: 200;
+.teste3 {
+    background-color: rgb(250, 3, 3);
+    height: 40px;
+    width: 10;
     position: absolute;
-    top: 5px;
-    left: 240px;
-  }
+    bottom: 0px;
+    left: 25px;
+}
 
-  .marmitas {
-    color: rgb(255, 255, 255);
-    height: 20px;
-    width: 50px;
-    font-weight: 200;
-    position: absolute;
-    top: 5px;
-    left: 380px;
-  }
-
-  .msp {
-    color: rgb(255, 255, 255);
-    height: 20px;
-    width: 120px;
-    font-weight: 200;
-    position: absolute;
-    top: 5px;
-    left: 540px;
-  }
-  
-  .bebidas {
-    color: rgb(255, 255, 255);
-    height: 20px;
-    width: 55px;
-    font-weight: 200;
-    position: absolute;
-    top: 5px;
-    right: 500px;
-  }
-
-  .sobremesas {
-    color: rgb(255, 255, 255);
-    height: 20px;
-    width: 84px;
-    font-weight: 200;
-    position: absolute;
-    top: 5px;
-    right: 290px;
-  }
-
-  .contato {
-    color: rgb(255, 255, 255);
-    height: 20px;
-    width: 64px;
-    font-weight: 200;
-    position: absolute;
-    top: 5px;
-    right: 100px;
-  }
