@@ -1,29 +1,152 @@
 html {
-    padding-bottom: 2000px;
+    padding-bottom: 1000px;
 }
 
-.teste {
-    background-color: aqua;
-    border: 2px solid blue;
-    position: relative;
-    height: 40px;
-    top: 120px;
+img {
+    display: block;
+    width: 100%;
+    height: 70%;
+    object-fit: inherit;
+    object-position: inherit;
+    border-radius: 10px 10px 0px 0px;
+    overflow: clip;
 }
-.teste2 {
-    /* border: 2px solid blue; */
-    background-color: rgb(86, 30, 30);
+
+.ptxt {
     height: 40px;
     width: auto;
-    position: relative;
-
-}
-
-.teste3 {
-    background-color: rgb(250, 3, 3);
-    height: 40px;
-    width: 10;
     position: absolute;
-    bottom: 0px;
-    left: 25px;
+    left: 10px;
+    top: 215px;
 }
 
+.titulo {
+    font-weight: 600;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+.descricao {
+    font-weight: 450;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.corpo {
+   background-color: whitesmoke;
+    border-bottom: 2px solid blue;
+    position: relative;
+    height: 1000px;
+    top: 119px;
+}
+
+/* --------------------Promoções-------------------- */
+
+.TP {
+    height: 30px;
+    width: auto;
+    position: absolute;
+    font-weight: 490;
+    font-size: 24px;
+    left: 40px;
+    top: 0px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.promo1 {
+   background-color: whitesmoke;
+    border: 2px solid rgb(238, 238, 238);
+    height: 300px;
+    width: 240px;
+    position: absolute;
+    left: 35px;
+    top: 78px;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+    transition: border 0.3s;
+}
+
+.promo1:hover{
+    border: 2px solid rgb(87, 86, 86);
+}
+
+.promo2 {
+   background-color: whitesmoke;
+    border: 2px solid rgb(238, 238, 238);
+    height: 300px;
+    width: 240px;
+    position: absolute;
+    left: 320px;
+    top: 78px;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+    transition: border 0.3s;
+}
+
+.promo2:hover{
+    border: 2px solid rgb(87, 86, 86);
+}
+
+.promo3 {
+   background-color: whitesmoke;
+    border: 2px solid rgb(238, 238, 238);
+    height: 300px;
+    width: 240px;
+    position: absolute;
+    left: 600px;
+    top: 78px;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+    transition: border 0.3s;
+}
+
+.promo3:hover{
+    border: 2px solid rgb(87, 86, 86);
+}
+
+.promo4 {
+   background-color: whitesmoke;
+    border: 2px solid rgb(238, 238, 238);
+    height: 300px;
+    width: 240px;
+    position: absolute;
+    left: 880px;
+    top: 78px;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+    transition: border 0.3s;
+}
+
+.promo4:hover{
+    border: 2px solid rgb(87, 86, 86);
+}
+
+/* --------------------Massas-------------------- */
+
+.TM {
+    height: 30px;
+    width: auto;
+    position: absolute;
+    font-weight: 490;
+    font-size: 24px;
+    left: 40px;
+    top: 450px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.massa1 {
+   background-color: whitesmoke;
+    border: 2px solid rgb(238, 238, 238);
+    height: 300px;
+    width: 240px;
+    position: absolute;
+    left: 35px;
+    top: 535px;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+    transition: border 0.3s;
+}
+
+.massa1:hover{
+    border: 2px solid rgb(87, 86, 86);
+}

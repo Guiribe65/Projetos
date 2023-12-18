@@ -4,6 +4,7 @@
     position: fixed;
     height: 82px;
     width: 1310px;
+    z-index: 100;
   }
 
   .menu {
@@ -72,7 +73,7 @@
 
   .promo {
     color: rgb(255, 255, 255);
-    /* border-bottom: 1px solid rgb(255, 255, 255); */
+    border-bottom: 1px solid transparent;
     text-align: center;
     height: 20px;
     width: 80px;
@@ -80,11 +81,17 @@
     position: absolute;
     top: 5px;
     left: 82px;
+    cursor: pointer;
+    transition: border 0.3s;
+  }
+
+  .promo:hover {
+    border-bottom: 1px solid rgb(255, 255, 255);
   }
 
   .massas {
     color: rgb(255, 255, 255);
-    /* border-bottom: 1px solid rgb(255, 255, 255); */
+    border-bottom: 1px solid transparent;
     text-align: center;
     height: 20px;
     width: 50px;
@@ -92,11 +99,17 @@
     position: absolute;
     top: 5px;
     left: 240px;
+    cursor: pointer;
+    transition: border 0.3s;
+  }
+
+  .massas:hover {
+    border-bottom: 1px solid rgb(255, 255, 255);
   }
 
   .marmitas {
     color: rgb(255, 255, 255);
-    /* border-bottom: 1px solid rgb(255, 255, 255); */
+    border-bottom: 1px solid transparent;
     text-align: center;
     height: 20px;
     width: 66px;
@@ -104,11 +117,17 @@
     position: absolute;
     top: 5px;
     left: 380px;
+    cursor: pointer;
+    transition: border 0.3s;
+  }
+  
+  .marmitas:hover {
+    border-bottom: 1px solid rgb(255, 255, 255);
   }
 
   .msp {
     color: rgb(255, 255, 255);
-    /* border-bottom: 1px solid rgb(255, 255, 255); */
+    border-bottom: 1px solid transparent;
     text-align: center;
     height: 20px;
     width: 115px;
@@ -116,35 +135,53 @@
     position: absolute;
     top: 5px;
     left: 540px;
+    cursor: pointer;
+    transition: border 0.3s;
+  }
+
+  .msp:hover {
+    border-bottom: 1px solid rgb(255, 255, 255);
   }
   
   .bebidas {
     color: rgb(255, 255, 255);
-    /* border-bottom: 1px solid rgb(255, 255, 255); */
+    border-bottom: 1px solid transparent;
     text-align: center;
     height: 20px;
     width: 55px;
     font-weight: 200;
     position: absolute;
     top: 5px;
-    right: 500px;
+    right: 290px;
+    cursor: pointer;
+    transition: border 0.3s;
+  }
+
+  .bebidas:hover {
+    border-bottom: 1px solid rgb(255, 255, 255);
   }
 
   .sobremesas {
     color: rgb(255, 255, 255);
-    /* border-bottom: 1px solid rgb(255, 255, 255); */
+    border-bottom: 1px solid transparent;
     text-align: center;
     height: 20px;
     width: 84px;
     font-weight: 200;
     position: absolute;
     top: 5px;
-    right: 290px;
+    right: 475px;
+    cursor: pointer;
+    transition: border 0.3s;
+  }
+
+  .sobremesas:hover {
+    border-bottom: 1px solid rgb(255, 255, 255);
   }
 
   .contato {
     color: rgb(255, 255, 255);
-    /* border-bottom: 1px solid rgb(255, 255, 255); */
+    border-bottom: 1px solid transparent;
     text-align: center;
     height: 20px;
     width: 58px;
@@ -152,6 +189,11 @@
     position: absolute;
     top: 5px;
     right: 100px;
+    cursor: pointer;
+    transition: border 0.3s;
+  }
+  .contato:hover {
+    border-bottom: 1px solid rgb(255, 255, 255);
   }
   
   

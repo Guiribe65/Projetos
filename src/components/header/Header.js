@@ -2,13 +2,11 @@ import React from "react";
 import { FaWhatsapp } from "react-icons/fa";
 import { IoPersonCircleOutline, IoSearch} from "react-icons/io5";
 import { MdOutlineShoppingBasket } from "react-icons/md";
-// import Logo from "../Imagens/Alvorada.jpg";
 import "./Header.css";
 
 function Header() {
   return (
     <div className="header">
-      {/* <img src={Logo} alt="Alvorada Logo" />     */}
       <MdOutlineShoppingBasket className="shop" />
       <IoSearch className="search"/>
       <FaWhatsapp className="WA" />
