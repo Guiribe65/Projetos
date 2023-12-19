@@ -5,195 +5,266 @@
     height: 82px;
     width: 1310px;
     z-index: 100;
-  }
+}
 
-  .menu {
-    color: rgb(0, 0, 0);
-    margin-left: 20px;
-    margin-top: 10px;
-    position: absolute;
-    height: 40px;
-    width: 140px;
+.menu {
+  color: rgb(0, 0, 0);
+  margin-left: 20px;
+  margin-top: 10px;
+  position: absolute;
+  height: 40px;
+  width: 140px;
 }
   
-  .subtxt {
-    color: rgb(0, 0, 0);
-    height: 30px;
-    width: 130px;
-    font-weight: 500;
-    position: absolute;
-    top: 50px;
-    left: 25px;
-  }
-  
-  .login {
-    color: rgb(0, 0, 0);
-    height: 30px;
-    width: 30px;
-    font-weight: 500;
-    position: absolute;
-    top: 30px;
-    right: 20px;
-  }
+.subtxt {
+  color: rgb(0, 0, 0);
+  height: 30px;
+  width: 130px;
+  font-weight: 500;
+  position: absolute;
+  top: 50px;
+  left: 25px;
+}
 
-  .WA {
-    color: rgb(0, 0, 0);
-    height: 30px;
-    width: 30px;
-    position: absolute;
-    top: 30px;
-    right: 65px;
-  }
+.login {
+  color: rgb(0, 0, 0);
+  height: 34px;
+  width: 34px;
+  font-weight: 500;
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 10px 10px 10px 10px;
+}
 
-  .shop {
-    color: rgb(0, 0, 0);
-    height: 30px;
-    width: 30px;
-    position: absolute;
-    top: 30px;
-    right: 112px;
-  }
-  
-  .search {
-    color: rgb(0, 0, 0);
-    height: 30px;
-    width: 30px;
-    position: absolute;
-    top: 30px;
-    right: 160px;
-  }
-  /* -------------------------menu--------------------------- */
-  .mnu {
-    background-color: rgb(0, 0, 0);
-    position: relative;
-    height: 34px;
-    width: auto;
-    top: 85px;
-  }
+.login:hover{
+    background-color: rgb(212, 209, 209);
+}
 
-  .promo {
-    color: rgb(255, 255, 255);
-    border-bottom: 1px solid transparent;
-    text-align: center;
-    height: 20px;
-    width: 80px;
-    font-weight: 200;
-    position: absolute;
-    top: 5px;
-    left: 82px;
-    cursor: pointer;
-    transition: border 0.3s;
-  }
+.WA {
+  color: rgb(0, 0, 0);
+  height: 32px;
+  width: 32px;
+  position: absolute;
+  top: 30px;
+  right: 65px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 10px 10px 10px 10px;
+}
 
-  .promo:hover {
-    border-bottom: 1px solid rgb(255, 255, 255);
-  }
+.WA:hover{
+    background-color: rgb(212, 209, 209);
+}
 
-  .massas {
-    color: rgb(255, 255, 255);
-    border-bottom: 1px solid transparent;
-    text-align: center;
-    height: 20px;
-    width: 50px;
-    font-weight: 200;
-    position: absolute;
-    top: 5px;
-    left: 240px;
-    cursor: pointer;
-    transition: border 0.3s;
-  }
+.shop {
+  color: rgb(0, 0, 0);
+  height: 32px;
+  width: 32px;
+  position: absolute;
+  top: 30px;
+  right: 112px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 10px 10px 10px 10px;
+}
 
-  .massas:hover {
-    border-bottom: 1px solid rgb(255, 255, 255);
-  }
+.shop:hover{
+    background-color: rgb(212, 209, 209);
+}
 
-  .marmitas {
-    color: rgb(255, 255, 255);
-    border-bottom: 1px solid transparent;
-    text-align: center;
-    height: 20px;
-    width: 66px;
-    font-weight: 200;
-    position: absolute;
-    top: 5px;
-    left: 380px;
-    cursor: pointer;
-    transition: border 0.3s;
-  }
-  
-  .marmitas:hover {
-    border-bottom: 1px solid rgb(255, 255, 255);
-  }
+.search {
+  color: rgb(0, 0, 0);
+  height: 32px;
+  width: 32px;
+  position: absolute;
+  top: 30px;
+  right: 160px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 10px 10px 10px 10px;
+}
 
-  .msp {
-    color: rgb(255, 255, 255);
-    border-bottom: 1px solid transparent;
-    text-align: center;
-    height: 20px;
-    width: 115px;
-    font-weight: 200;
-    position: absolute;
-    top: 5px;
-    left: 540px;
-    cursor: pointer;
-    transition: border 0.3s;
-  }
+.search:hover{
+    background-color: rgb(212, 209, 209);
+}
 
-  .msp:hover {
-    border-bottom: 1px solid rgb(255, 255, 255);
-  }
-  
-  .bebidas {
-    color: rgb(255, 255, 255);
-    border-bottom: 1px solid transparent;
-    text-align: center;
-    height: 20px;
-    width: 55px;
-    font-weight: 200;
-    position: absolute;
-    top: 5px;
-    right: 290px;
-    cursor: pointer;
-    transition: border 0.3s;
-  }
+.close {
+  color: rgb(0, 0, 0);
+  height: 32px;
+  width: 32px;
+  position: absolute;
+  top: 30px;
+  right: 160px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 10px 10px 10px 10px;
+}
 
-  .bebidas:hover {
-    border-bottom: 1px solid rgb(255, 255, 255);
-  }
+.close:hover{
+    background-color: rgb(212, 209, 209);
+}
 
-  .sobremesas {
-    color: rgb(255, 255, 255);
-    border-bottom: 1px solid transparent;
-    text-align: center;
-    height: 20px;
-    width: 84px;
-    font-weight: 200;
-    position: absolute;
-    top: 5px;
-    right: 475px;
-    cursor: pointer;
-    transition: border 0.3s;
-  }
+.pesquisa {
+position: absolute;
+top: 28px;
+right: 208px; 
+display: flex;
+align-items: center;
+}
 
-  .sobremesas:hover {
-    border-bottom: 1px solid rgb(255, 255, 255);
-  }
+.campo-pesquisa {
+  height: 32px;
+  width: 400px; 
+  border-radius: 20px;
+  margin-right: 5px; 
+  border-color: 2px solid black;
+  padding-left: 45px;
+}
 
-  .contato {
-    color: rgb(255, 255, 255);
-    border-bottom: 1px solid transparent;
-    text-align: center;
-    height: 20px;
-    width: 58px;
-    font-weight: 200;
-    position: absolute;
-    top: 5px;
-    right: 100px;
-    cursor: pointer;
-    transition: border 0.3s;
-  }
-  .contato:hover {
-    border-bottom: 1px solid rgb(255, 255, 255);
-  }
-  
-  
+.icone-pesquisa {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  color: #000000;
+  height: 20px;
+  width: 20px;
+}
+
+/* -------------------------menu--------------------------- */
+.mnu {
+  background-color: rgb(0, 0, 0);
+  position: relative;
+  height: 34px;
+  width: auto;
+  top: 85px;
+}
+
+.promo {
+  color: rgb(255, 255, 255);
+  border-bottom: 1px solid transparent;
+  text-align: center;
+  height: 20px;
+  width: 80px;
+  font-weight: 200;
+  position: absolute;
+  top: 5px;
+  left: 82px;
+  cursor: pointer;
+  transition: border 0.3s;
+}
+
+.promo:hover {
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.massas {
+  color: rgb(255, 255, 255);
+  border-bottom: 1px solid transparent;
+  text-align: center;
+  height: 20px;
+  width: 50px;
+  font-weight: 200;
+  position: absolute;
+  top: 5px;
+  left: 240px;
+  cursor: pointer;
+  transition: border 0.3s;
+}
+
+.massas:hover {
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.marmitas {
+  color: rgb(255, 255, 255);
+  border-bottom: 1px solid transparent;
+  text-align: center;
+  height: 20px;
+  width: 66px;
+  font-weight: 200;
+  position: absolute;
+  top: 5px;
+  left: 380px;
+  cursor: pointer;
+  transition: border 0.3s;
+}
+
+.marmitas:hover {
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.msp {
+  color: rgb(255, 255, 255);
+  border-bottom: 1px solid transparent;
+  text-align: center;
+  height: 20px;
+  width: 115px;
+  font-weight: 200;
+  position: absolute;
+  top: 5px;
+  left: 540px;
+  cursor: pointer;
+  transition: border 0.3s;
+}
+
+.msp:hover {
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.bebidas {
+  color: rgb(255, 255, 255);
+  border-bottom: 1px solid transparent;
+  text-align: center;
+  height: 20px;
+  width: 55px;
+  font-weight: 200;
+  position: absolute;
+  top: 5px;
+  right: 290px;
+  cursor: pointer;
+  transition: border 0.3s;
+}
+
+.bebidas:hover {
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.sobremesas {
+  color: rgb(255, 255, 255);
+  border-bottom: 1px solid transparent;
+  text-align: center;
+  height: 20px;
+  width: 84px;
+  font-weight: 200;
+  position: absolute;
+  top: 5px;
+  right: 475px;
+  cursor: pointer;
+  transition: border 0.3s;
+}
+
+.sobremesas:hover {
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.contato {
+  color: rgb(255, 255, 255);
+  border-bottom: 1px solid transparent;
+  text-align: center;
+  height: 20px;
+  width: 58px;
+  font-weight: 200;
+  position: absolute;
+  top: 5px;
+  right: 100px;
+  cursor: pointer;
+  transition: border 0.3s;
+}
+.contato:hover {
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
