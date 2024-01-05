@@ -40,7 +40,7 @@ img {
    background-color: whitesmoke;
     border-bottom: 2px solid blue;
     position: relative;
-    height: 1900px;
+    height: 3700px;
     top: 119px;
 }
 
@@ -155,6 +155,20 @@ img {
     border: 2px solid  rgb(255, 116, 116);
 }
 
+.selmassa {
+    background-color: whitesmoke;
+    border: 2px solid lightblue;
+    height: 620px;
+    width: 1100px;
+    z-index: 102;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); /* Para centralizar o elemento */
+    border-radius: 15px;
+  }
+  
+
 .massa2 {
     background-color: whitesmoke;
      border: 2px solid rgb(238, 238, 238);
@@ -252,3 +266,180 @@ img {
  .marmitaMist:hover{
      border: 2px solid  rgb(255, 116, 116);
  }
+
+ /* --------------------Marmitex-------------------- */
+
+ .TMSP {
+    height: 30px;
+    width: auto;
+    position: absolute;
+    font-weight: 490;
+    font-size: 26px;
+    left: 40px;
+    top: 1670px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.msp1 {
+   background-color: whitesmoke;
+    border: 2px solid rgb(238, 238, 238);
+    height: 310px;
+    width: 240px;
+    position: absolute;
+    left: 35px;
+    top: 1760px;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+    transition: border 0.3s;
+}
+
+.msp1:hover{
+    border: 2px solid  rgb(255, 116, 116);
+}
+
+.msp2 {
+    background-color: whitesmoke;
+     border: 2px solid rgb(238, 238, 238);
+     height: 310px;
+     width: 240px;
+     position: absolute;
+     left: 320px;
+     top: 1760px;
+     border-radius: 10px 10px 10px 10px;
+     cursor: pointer;
+     transition: border 0.3s;
+ }
+ 
+ .msp2:hover{
+     border: 2px solid  rgb(255, 116, 116);
+ }
+
+ /* --------------------Sobremesas-------------------- */
+
+ .TS {
+    height: 30px;
+    width: auto;
+    position: absolute;
+    font-weight: 490;
+    font-size: 26px;
+    left: 40px;
+    top: 2130px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.sobremesa1 {
+   background-color: whitesmoke;
+    border: 2px solid rgb(238, 238, 238);
+    height: 310px;
+    width: 240px;
+    position: absolute;
+    left: 35px;
+    top: 2220px;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+    transition: border 0.3s;
+}
+
+.sobremesa1:hover{
+    border: 2px solid  rgb(255, 116, 116);
+}
+
+.sobremesa2 {
+    background-color: whitesmoke;
+     border: 2px solid rgb(238, 238, 238);
+     height: 310px;
+     width: 240px;
+     position: absolute;
+     left: 320px;
+     top: 2220px;
+     border-radius: 10px 10px 10px 10px;
+     cursor: pointer;
+     transition: border 0.3s;
+ }
+ 
+ .sobremesa2:hover{
+     border: 2px solid  rgb(255, 116, 116);
+ }
+
+ /* --------------------Bebidas-------------------- */
+
+ .TB {
+    height: 30px;
+    width: auto;
+    position: absolute;
+    font-weight: 490;
+    font-size: 26px;
+    left: 40px;
+    top: 2600px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.bebida1 {
+   background-color: whitesmoke;
+    border: 2px solid rgb(238, 238, 238);
+    height: 310px;
+    width: 240px;
+    position: absolute;
+    left: 35px;
+    top: 2690px;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+    transition: border 0.3s;
+}
+
+.bebida1:hover{
+    border: 2px solid  rgb(255, 116, 116);
+}
+
+.bebida2 {
+    background-color: whitesmoke;
+     border: 2px solid rgb(238, 238, 238);
+     height: 310px;
+     width: 240px;
+     position: absolute;
+     left: 320px;
+     top: 2690px;
+     border-radius: 10px 10px 10px 10px;
+     cursor: pointer;
+     transition: border 0.3s;
+ }
+ 
+ .bebida2:hover{
+     border: 2px solid  rgb(255, 116, 116);
+ }
+
+ .bebida3 {
+    background-color: whitesmoke;
+     border: 2px solid rgb(238, 238, 238);
+     height: 310px;
+     width: 240px;
+     position: absolute;
+     left: 600px;
+     top: 2690px;
+     border-radius: 10px 10px 10px 10px;
+     cursor: pointer;
+     transition: border 0.3s;
+ }
+ 
+ .bebida3:hover{
+     border: 2px solid  rgb(255, 116, 116);
+ }
+
+ .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2); /* Cor escura com opacidade */
+    z-index: 101; /* Coloque acima da div principal */
+    cursor: pointer;
+  }
+  
+  .overlay.visivel {
+    display: block;
+  }
+
+  .noscroll {
+    overflow: hidden;
+  }
