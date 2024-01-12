@@ -1,6 +1,7 @@
 import React, { useState, useEffect  } from "react";
 import "./Body.css";
 import Alvorada from './Imagens/Alvorada.jpg';
+import { IoMdClose } from "react-icons/io";
 
 function Body() {
    // Estado para controlar a visibilidade da nova div
@@ -79,8 +80,17 @@ function Body() {
             <div class="descricao">Raviole de mussarela de bufula com tomate seco</div>
           </div>
         </div>
-        {selecaoMassa1 && <div className={`selmassa ${selecaoMassa1 ? 'aparecer' : ''}`}>
-        Nova Div1
+        {selecaoMassa1 && <div class="selitem">
+          <div class="subcabecalho">
+            <IoMdClose className="selclose" onClick={fecharDiv} />
+            <div class="subtitulo">Raviole de mussarela</div>
+          </div>
+          <div class="selcont">
+            <img class="selimg" src={Alvorada} alt="Descrição da imagem" />
+          </div>
+          <div class="selrodape">
+            <div class="valorrod">R$37,90</div>
+          </div>
         </div>}
         <div class="massa2" onClick={Massa2}>
           <img src={Alvorada} alt="Descrição da imagem" />
@@ -89,7 +99,7 @@ function Body() {
             <div class="descricao">Raviole de mussarela de bufula com tomate seco</div>
           </div>
         </div>
-        {selecaoMassa2 && <div class="selmassa">Nova Div2</div>}
+        {selecaoMassa2 && <div class="selitem">Nova Div3</div>}
         {/* -----------------------Marmitas---------------------------  */}
         <h2 class="TMTX" id="Marmitas">Marmitas</h2>
         <div class="marmitaM">
@@ -178,7 +188,8 @@ function Body() {
             <div class="preco">A partir de $3,00</div>
           </div>
         </div>
-        {overlayVisivel && <div className="overlay" onClick={fecharDiv}></div>}
+        {overlayVisivel && <div className="overlay" onClick={fecharDiv}>
+        </div>}
     </div>
   );
 }

@@ -37,13 +37,99 @@ img {
 }
 
 .corpo {
-   background-color: whitesmoke;
+    background-color: whitesmoke;
     border-bottom: 2px solid blue;
     position: relative;
     height: 3700px;
     top: 119px;
 }
 
+.subcabecalho {
+    background-color: rgb(0, 0, 0);
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.subtitulo {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 17px;
+    box-sizing: border-box;
+    top: 18px;
+    left: 60px;
+    position: absolute;
+
+}
+
+.selitem {
+    background-color: whitesmoke;
+    height: 620px;
+    width: 1100px;
+    z-index: 102;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); /* Para centralizar o elemento */
+    border-radius: 15px;
+  }
+  
+.selclose {
+    color: rgb(255, 255, 255);
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.selclose:hover {
+    background-color: rgb(33, 32, 32);   
+}
+
+.selcont {
+    height: 80%;
+    width: 50%;
+    background-color: rgb(68, 54, 54);
+    position: fixed;
+    top: 60px;  
+}
+
+.selimg {
+    border-radius: 0px;
+    display: block;
+    width: 500px;
+    height: 50%;
+    object-fit: inherit;
+    object-position: inherit;
+    overflow: clip;
+    top: 20px;
+    left: 24px;
+    position: absolute;
+}
+
+.selrodape {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-top: 2px solid rgb(139, 139, 139);
+    border-radius: 0px 0px 10px 10px;
+    position: fixed;
+    bottom: 0px;  
+}
+
+.valorrod {
+    position: absolute;
+    bottom: 40%;
+    left: 30px;
+    font-weight: 600;
+    font-size: 25px;
+    box-sizing: border-box;
+}
 /* --------------------Promoções-------------------- */
 
 .TP {
@@ -154,20 +240,6 @@ img {
 .massa1:hover{
     border: 2px solid  rgb(255, 116, 116);
 }
-
-.selmassa {
-    background-color: whitesmoke;
-    border: 2px solid lightblue;
-    height: 620px;
-    width: 1100px;
-    z-index: 102;
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%); /* Para centralizar o elemento */
-    border-radius: 15px;
-  }
-  
 
 .massa2 {
     background-color: whitesmoke;
