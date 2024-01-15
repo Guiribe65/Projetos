@@ -87,9 +87,15 @@ function Body() {
           </div>
           <div class="selcont">
             <img class="selimg" src={Alvorada} alt="Descrição da imagem" />
+            <div class="obs">Observações:</div>
+            <input type="text" placeholder="Ex: Tirar a cebola, maionese à parte, etc." class="camposobs"/>
           </div>
           <div class="selrodape">
             <div class="valorrod">R$37,90</div>
+            <div class="negvalor">-</div>
+            <div class="contvalor">1</div>
+            <div class="posvalor">+</div>
+            <div class="adcarrinho">Adiconar ao carrinho</div>
           </div>
         </div>}
         <div class="massa2" onClick={Massa2}>
