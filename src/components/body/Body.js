@@ -90,6 +90,17 @@ function Body() {
             <div class="obs">Observações:</div>
             <input type="text" placeholder="Ex: Tirar a cebola, maionese à parte, etc." class="camposobs"/>
           </div>
+          <div class="selcontd">
+          <label>Bora biilll</label>
+          <label class="item1" > 
+              <input type="checkbox" />
+              refogado no azeite 
+            </label>
+            <label class="item2">
+              <input type="checkbox"/>
+              refogado no oleo 
+            </label>
+          </div>
           <div class="selrodape">
             <div class="valorrod">R$37,90</div>
             <div class="negvalor">-</div>
@@ -105,7 +116,24 @@ function Body() {
             <div class="descricao">Raviole de mussarela de bufula com tomate seco</div>
           </div>
         </div>
-        {selecaoMassa2 && <div class="selitem">Nova Div3</div>}
+        {selecaoMassa2 && <div class="selitem">
+        <div class="subcabecalho">
+            <IoMdClose className="selclose" onClick={fecharDiv} />
+            <div class="subtitulo">Raviole de mussarela</div>
+          </div>
+          <div class="selcont">
+            <img class="selimg" src={Alvorada} alt="Descrição da imagem" />
+            <div class="obs">Observações:</div>
+            <input type="text" placeholder="Ex: Tirar a cebola, maionese à parte, etc." class="camposobs"/>
+          </div>
+          <div class="selrodape">
+            <div class="valorrod">R$37,90</div>
+            <div class="negvalor">-</div>
+            <div class="contvalor">1</div>
+            <div class="posvalor">+</div>
+            <div class="adcarrinho">Adiconar ao carrinho</div>
+          </div>
+        </div>}
         {/* -----------------------Marmitas---------------------------  */}
         <h2 class="TMTX" id="Marmitas">Marmitas</h2>
         <div class="marmitaM">
